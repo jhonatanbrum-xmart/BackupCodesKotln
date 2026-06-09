@@ -42,7 +42,7 @@ fun main() {
     mutableListCreatedForMe.add("Created for me")
     mutableListCreatedForMe.remove("Created for me")
     println(mutableListCreatedForMe) sd*/
-    /* EJERCICIO 8 */
+    /* EJERCICIO 8
     val hooray = '·'
     if (hooray.isLetter()) {
         println("Hooray")
@@ -50,5 +50,8 @@ fun main() {
         println("Hooray?")
     } else {
         println("Bruh, era letra o digito, no letra, digito o alguna cosa que se te ocurra de la nada, intentalo de nuevo por favor.")
-    }
+    }*/
+    /* EJERCICIO 9 */
+    val numero = 0
+    println(numero.toString() + 123)
 }
