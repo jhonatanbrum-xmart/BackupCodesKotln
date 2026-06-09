@@ -44,6 +44,6 @@ fun main() {
     mutableListCreatedForMe.add("List")
     mutableListCreatedForMe.add("Created for me")
     mutableListCreatedForMe.remove("Created for me")
-    println(mutableListCreatedForMe)*/
+    println(mutableListCreatedForMe) sd*/
 
 }
