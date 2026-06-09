@@ -1,6 +1,3 @@
-import java.util.Locale
-import java.util.Locale.getDefault
-
 fun main() {
     /* EJERCICIO 1
     val year: Int = 1234
