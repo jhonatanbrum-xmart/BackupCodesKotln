@@ -59,6 +59,7 @@ fun ejercicio7() {
 
 fun ejercicio8() {
     val hooray = '·'
+    when (hooray) {}
     if (hooray.isLetter()) {
         println("Hooray")
     } else if (hooray.isDigit()) {
@@ -73,4 +74,5 @@ fun ejercicio9() {
     println(numero.toString() + 123)
 }
 fun main() {
+    ejercicio7()
 }
