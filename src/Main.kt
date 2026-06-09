@@ -15,11 +15,11 @@ fun ejercicio1() {
 }
 
 fun ejercicio2() {
-    var num1 = 10
-    var num2 = 4
-    var difference = num1 + num2
-    var sum = num1 - num2
-    var product = num1 % num2
+    val num1 = 12
+    val num2 = 4
+    val difference = num1 - num2
+    val sum = num1 + num2
+    val product = num1 * num2
     println("$difference, $sum, $product")
 }
 
@@ -73,5 +73,4 @@ fun ejercicio9() {
     println(numero.toString() + 123)
 }
 fun main() {
-
 }
