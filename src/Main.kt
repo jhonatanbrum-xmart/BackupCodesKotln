@@ -1,5 +1,6 @@
-fun main() {
-    /* EJERCICIO 1
+import java.util.Locale.getDefault
+
+fun ejercicio1() {
     val year: Int = 1234
     val longer: Long = 2000000000000
     val flotant: Float = 3.14F
@@ -10,39 +11,53 @@ fun main() {
     val numbers = listOf("One", "Two", "Three")
     val mutantNumbers = mutableListOf("One", "Two", "Three")
     println("$year $longer $flotant $bool $character $text ${names.contentToString()} ${numbers} $mutantNumbers")
-    println("$year $longer $flotant")*/
-    /* EJERCICIO 2
+    println("$year $longer $flotant")
+}
+
+fun ejercicio2() {
     var num1 = 10
     var num2 = 4
     var difference = num1 + num2
     var sum = num1 - num2
     var product = num1 % num2
-    println("$difference, $sum, $product")*/
-    /* EJERCICIO 3
+    println("$difference, $sum, $product")
+}
+
+fun ejercicio3() {
     val me = "Jhonatan"
-    println("${me.length}, ${me.uppercase(getDefault())}")*/
-    /* EJERCICIO 4
+    println("${me.length}, ${me.uppercase(getDefault())}")
+}
+
+fun ejercicio4() {
     val vof = !true
-    println(vof)*/
-    /* EJERCICIO 5
-    val numbersArraysCreatedForMe = arrayOf(1,2,3,4,5)
-    println("${numbersArraysCreatedForMe.first()}, ${numbersArraysCreatedForMe.last()}")*/
-    /* EJERCICIO 6
+    println(vof)
+}
+
+fun ejercicio5() {
+    val numbersArraysCreatedForMe = arrayOf(1, 2, 3, 4, 5)
+    println("${numbersArraysCreatedForMe.first()}, ${numbersArraysCreatedForMe.last()}")
+}
+
+fun ejercicio6() {
     val favoriteApps = listOf("IntelliJ IDEA", "Android Studio", "WhatsApp", "TikTok", "Discord")
     val randomApp = "TikTok"
     if (favoriteApps.contains(randomApp)) {
         println("The app: $randomApp is part of your favourite apps.")
     } else {
         println("The app: $randomApp isn't part of your favourite apps.")
-    }*/
-    /* EJERCICIO 7
+    }
+}
+
+fun ejercicio7() {
     var mutableListCreatedForMe = mutableSetOf<String>()
     mutableListCreatedForMe.add("Mutable")
     mutableListCreatedForMe.add("List")
     mutableListCreatedForMe.add("Created for me")
     mutableListCreatedForMe.remove("Created for me")
-    println(mutableListCreatedForMe) sd*/
-    /* EJERCICIO 8
+    println(mutableListCreatedForMe)
+}
+
+fun ejercicio8() {
     val hooray = '·'
     if (hooray.isLetter()) {
         println("Hooray")
@@ -50,8 +65,13 @@ fun main() {
         println("Hooray?")
     } else {
         println("Bruh, it was a letter or a digit, not a letter, digit or a random character of your mind.")
-    }*/
-    /* EJERCICIO 9 */
+    }
+}
+
+fun ejercicio9() {
     val numero = 0
     println(numero.toString() + 123)
+}
+fun main() {
+
 }
