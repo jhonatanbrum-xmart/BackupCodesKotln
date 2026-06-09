@@ -31,9 +31,9 @@ fun main() {
     val favoriteApps = listOf("IntelliJ IDEA", "Android Studio", "WhatsApp", "TikTok", "Discord")
     val randomApp = "TikTok"
     if (favoriteApps.contains(randomApp)) {
-        println("La app: $randomApp si esta dentro de las apps favoritas.")
+        println("The app: $randomApp is part of your favourite apps.")
     } else {
-        println("La app: $randomApp no esta dentro de las apps favoritas.")
+        println("The app: $randomApp isn't part of your favourite apps.")
     }*/
     /* EJERCICIO 7
     var mutableListCreatedForMe = mutableSetOf<String>()
@@ -49,7 +49,7 @@ fun main() {
     } else if (hooray.isDigit()) {
         println("Hooray?")
     } else {
-        println("Bruh, era letra o digito, no letra, digito o alguna cosa que se te ocurra de la nada, intentalo de nuevo por favor.")
+        println("Bruh, it was a letter or a digit, not a letter, digit or a random character of your mind.")
     }*/
     /* EJERCICIO 9 */
     val numero = 0
