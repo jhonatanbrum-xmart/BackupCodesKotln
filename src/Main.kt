@@ -52,8 +52,8 @@ fun ejercicio1() {
     numbers.lastOrNull() //Obtiene el ultimo elemento del lista o devuelve Null si la lista esta vacia
     mutantNumbers.add("four")
     mutantNumbers.remove("four")
-    mutantNumbers.clear()
     mutantNumbers.removeAt(2) //Remueve el elemento que este en esa casilla de la lista
+    mutantNumbers.clear()
     mutantNumbers.removeIf { number ->  number == "Three" }  //Remueve los elementos que cumplan con las condiciones del if
     println("$year $longer $flotant $bool $character $text ${names.contentToString()} ${numbers} $mutantNumbers")
     println("$year $longer $flotant")
