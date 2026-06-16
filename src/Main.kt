@@ -1,17 +1,3 @@
-fun ejercicio8() {
-    val hooray = '·'
-    when (hooray) {
-
-    }
-    if (hooray.isLetter()) {
-        println("Hooray")
-    } else if (hooray.isDigit()) {
-        println("Hooray?")
-    } else {
-        println("Bruh, it was a letter or a digit, not a letter, digit or a random character of your mind.")
-    }
-}
-
 fun ejercicio9() {
     val numero = 0
     println(numero.toString() + 123)
@@ -25,4 +11,5 @@ fun main() {
     exercise5()
     exercise6()
     exercise7()
+    exercise8()
 }
