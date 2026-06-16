@@ -1,10 +1,3 @@
-import java.util.Locale.getDefault
-
-
-fun ejercicio4() {
-    val vof = !true
-    println(vof)
-}
 
 fun ejercicio5() {
     val numbersArraysCreatedForMe = arrayOf(1, 2, 3, 4, 5)
@@ -53,4 +46,5 @@ fun main() {
     exercise1()
     exercise2()
     exercise3()
+    exercise4()
 }
