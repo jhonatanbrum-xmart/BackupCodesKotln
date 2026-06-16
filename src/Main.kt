@@ -1,12 +1,3 @@
-fun ejercicio7() {
-    var mutableListCreatedForMe = mutableSetOf<String>()
-    mutableListCreatedForMe.add("Mutable")
-    mutableListCreatedForMe.add("List")
-    mutableListCreatedForMe.add("Created for me")
-    mutableListCreatedForMe.remove("Created for me")
-    println(mutableListCreatedForMe)
-}
-
 fun ejercicio8() {
     val hooray = '·'
     when (hooray) {
@@ -33,4 +24,5 @@ fun main() {
     exercise4()
     exercise5()
     exercise6()
+    exercise7()
 }
