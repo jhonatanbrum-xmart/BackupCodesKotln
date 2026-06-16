@@ -1,8 +1,3 @@
-fun ejercicio9() {
-    val numero = 0
-    println(numero.toString() + 123)
-}
-
 fun main() {
     exercise1()
     exercise2()
@@ -12,4 +7,5 @@ fun main() {
     exercise6()
     exercise7()
     exercise8()
+    exercise9()
 }
