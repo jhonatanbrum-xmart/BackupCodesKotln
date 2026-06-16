@@ -1,9 +1,5 @@
 import java.util.Locale.getDefault
 
-fun ejercicio3() {
-    val me = "Jhonatan"
-    println("${me.length}, ${me.uppercase(getDefault())}")
-}
 
 fun ejercicio4() {
     val vof = !true
@@ -56,4 +52,5 @@ fun ejercicio9() {
 fun main() {
     exercise1()
     exercise2()
+    exercise3()
 }
