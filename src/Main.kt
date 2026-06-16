@@ -1,8 +1,4 @@
 
-fun ejercicio5() {
-    val numbersArraysCreatedForMe = arrayOf(1, 2, 3, 4, 5)
-    println("${numbersArraysCreatedForMe.first()}, ${numbersArraysCreatedForMe.last()}")
-}
 
 fun ejercicio6() {
     val favoriteApps = listOf("IntelliJ IDEA", "Android Studio", "WhatsApp", "TikTok", "Discord")
@@ -47,4 +43,5 @@ fun main() {
     exercise2()
     exercise3()
     exercise4()
+    exercise5()
 }
