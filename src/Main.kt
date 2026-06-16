@@ -1,14 +1,5 @@
 import java.util.Locale.getDefault
 
-fun ejercicio2() {
-    val num1 = 12
-    val num2 = 4
-    val difference = num1 - num2
-    val sum = num1 + num2
-    val product = num1 * num2
-    println("$difference, $sum, $product")
-}
-
 fun ejercicio3() {
     val me = "Jhonatan"
     println("${me.length}, ${me.uppercase(getDefault())}")
@@ -64,4 +55,5 @@ fun ejercicio9() {
 
 fun main() {
     exercise1()
+    exercise2()
 }
