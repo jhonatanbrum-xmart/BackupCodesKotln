@@ -1,4 +1,5 @@
 fun main() {
+    //Execution of exercises
     exercise1()
     exercise2()
     exercise3()
