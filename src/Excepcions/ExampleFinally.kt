@@ -1,16 +1,17 @@
 package Excepcions
 
-class jhonaException: Exception("Hello, i am the Jhonatan exeption!")
+class JhonaException: Exception("Hello, i am the Jhonatan exception!")
 
 fun main(){
     try {
-        throw jhonaException()
+        throw JhonaException()
     }
-    catch (e: jhonaException) {
-        println("Yep, this is an exeption.")
+    catch (e: JhonaException) {
+        println("Yep, this is an exception.")
     }
     finally {
         println("And for no reason:")
         throw IllegalArgumentException()
     }
 }
+//The expected result is a text saying "Yep, this is an exception." and "And for no reason:" to finish with a IllegalArgumentException

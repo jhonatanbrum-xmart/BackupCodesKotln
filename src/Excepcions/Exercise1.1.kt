@@ -2,15 +2,6 @@ package Excepcions
 
 fun main() {
     try {
-     throw IllegalArgumentException()
-    }
-    catch (e: Exception) {
-        println("Error")
-    }
-    finally {
-        println("Closing resources")
-    }
-    try {
         val x = 10 / 0
     } catch (e: RuntimeException) {
         println("Runtime")
@@ -19,8 +10,4 @@ fun main() {
     }
 
 }
-//The code output was: Runtime
-
-fun master(){
-    val awasdkhuj = "1, 2, 3"
-}
+//The expected code output was: Runtime
