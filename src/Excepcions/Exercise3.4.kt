@@ -11,4 +11,4 @@ fun main(){
     val juan = runCatching{ number1/100 }.getOrDefault(0)
     println(juan)
 }
-//The expected result its 0 0, because in the 2 modes the exception is an ArithmeticExepcion and the code for it is set the value in 0.
+//The expected result its 0 0, because in the 2 modes the exception is an ArithmeticException and the code for it is set the value in 0.
