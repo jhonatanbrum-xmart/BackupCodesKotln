@@ -1,4 +1,4 @@
-package excepcions
+package exceptions
 
 private class BankAccount(val open: Boolean, var money: Int) {
     fun withdraw(amount: Int) {

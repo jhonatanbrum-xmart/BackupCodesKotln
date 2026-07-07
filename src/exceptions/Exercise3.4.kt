@@ -1,4 +1,4 @@
-package excepcions
+package exceptions
 
 fun main(){
     val number1 = 0

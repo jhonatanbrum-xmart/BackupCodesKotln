@@ -1,4 +1,4 @@
-package excepcions
+package exceptions
 
 fun main() {
     val number = runCatching { "1a23".toInt() }.getOrDefault(0)
