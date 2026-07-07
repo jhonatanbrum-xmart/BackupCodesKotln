@@ -1,4 +1,4 @@
-package Excepcions
+package excepcions
 
 class JhonaException: Exception("Hello, i am the Jhonatan exception!")
 

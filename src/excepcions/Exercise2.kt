@@ -1,4 +1,4 @@
-package Excepcions
+package excepcions
 
 fun divide(a: Int, b: Int): Int {
     val asd = a / b

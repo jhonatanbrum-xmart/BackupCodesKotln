@@ -1,4 +1,4 @@
-package Excepcions
+package excepcions
 
 fun createUser(name: String){
     require(name.isNotEmpty())

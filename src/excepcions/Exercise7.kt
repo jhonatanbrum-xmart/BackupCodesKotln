@@ -1,9 +1,9 @@
-package Excepcions
+package excepcions
 
-class BankAccount(val open: Boolean, var money: Int) {
+private class BankAccount(val open: Boolean, var money: Int) {
     fun withdraw(amount: Int) {
         check(open)
-        money = money-amount
+        money -= amount
     }
 }
 
