@@ -9,3 +9,4 @@ fun main(){
     println(if(name?.length == null){"Unknown user"}else{name})
     println(name ?: "Unknown user")
 }
+//The expected output will 3 lines of texts saying "Unknown user"
