@@ -1,8 +1,7 @@
 package exceptions
 
-fun main(){
-    val num = runCatching { "4l2".toInt() }
-        .onFailure { println("Could not convert") }
+fun main() {
+    val num = runCatching { "4l2".toInt() }.onFailure { println("Could not convert") }
         .onSuccess { println("Converted successfully: $it") }
 
 }

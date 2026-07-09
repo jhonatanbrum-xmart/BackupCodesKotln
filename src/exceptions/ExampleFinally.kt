@@ -1,15 +1,13 @@
 package exceptions
 
-class JhonaException: Exception("Hello, i am the Jhonatan exception!")
+class JhonaException : Exception("Hello, i am the Jhonatan exception!")
 
-fun main(){
+fun main() {
     try {
         throw JhonaException()
-    }
-    catch (e: JhonaException) {
+    } catch (e: JhonaException) {
         println("Yep, this is an exception.")
-    }
-    finally {
+    } finally {
         println("And for no reason:")
         throw IllegalArgumentException()
     }

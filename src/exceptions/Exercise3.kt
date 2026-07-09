@@ -1,13 +1,13 @@
 package exceptions
 
-fun main(){
+fun main() {
     try {
         println("Opening file...")
-        val a = 1/0
+        val a = 1 / 0
         println("End of try")
-    } catch (_: ArithmeticException){
+    } catch (_: ArithmeticException) {
         println("")
-    }finally {
+    } finally {
         println("Closing file...")
     }
 }

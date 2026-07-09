@@ -1,9 +1,9 @@
 package exceptions
 
-fun main(){
+fun main() {
     val age: Int = try {
         "25".toInt()
-    } catch(e: NumberFormatException){
+    } catch (_: NumberFormatException) {
         -1
     }
     println(age)
